@@ -1,12 +1,11 @@
 <?php
+$lang = 'en';
 
 if(isset($_GET['lang'])) {
     $lang = $_GET['lang'];
-} else {
-    $lang = 'en';
 }
 
-$fn = $_SERVER['DOCUMENT_ROOT'] . "/language/{$lang}.txt";
+$fn = $_SERVER['DOCUMENT_ROOT'] . "/languages/{$lang}.txt";
 $file = file($fn);
 
 foreach($file as $line) {

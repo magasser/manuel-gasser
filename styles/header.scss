@@ -1,0 +1,45 @@
+@import "colors";
+
+.header {
+  position: absolute;
+  width: 100%;
+  background-color: $header;
+
+  .logo {
+    width: 5.5rem;
+    float: left;
+  }
+
+  .nav {
+    margin: 1.5rem 1rem;
+
+    a {
+      text-decoration: none;
+      color: $white;
+      font-size: 1.5rem;
+    }
+
+    .nav-item {
+      margin-left: 1.5rem;
+    }
+  }
+
+  .lang-selection {
+    display: inline-block;
+    float: right;
+
+    .lang-select {
+      margin: 0 .5rem;
+      opacity: .5;
+      font-size: 1rem;
+    }
+
+    .active {
+      opacity: 1;
+    }
+
+    .lang-select:first-child {
+      margin-left: 2rem;
+    }
+  }
+}

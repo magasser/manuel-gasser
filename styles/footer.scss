@@ -1,0 +1,29 @@
+@import "colors";
+
+.footer {
+  height: 2.5rem;
+  width: 100%;
+  background-color: $footer;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  .contact {
+    float: left;
+    margin: .5rem 1rem;
+
+    a {
+      text-decoration: none;
+      color: $link;
+      font-size: .8rem;
+    }
+
+    a:hover {
+      color: $link-hovered;
+    }
+  }
+
+  .media-links {
+    float: right;
+  }
+}

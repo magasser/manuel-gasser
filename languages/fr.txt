@@ -1,1 +1,6 @@
 title=Manuel Gasser
+home=Accueil
+about-me=Sur moi
+my-projects=Mes projets
+contact-me=Contactez-moi
+desc-short=Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at debitis dicta dolor facilis inventore maiores molestias mollitia nesciunt optio quaerat, quos repellat repudiandae sequi totam ullam, voluptatum? Amet, hic!
