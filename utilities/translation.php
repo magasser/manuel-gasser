@@ -19,7 +19,8 @@ foreach($file as $line) {
 function t($key) {
     global $translation;
     if(isset($translation[$key])) {
-        return $translation[$key];
+        $value = trim($translation[$key]);
+        return $value;
     } else {
         return "[{$key}]";
     }

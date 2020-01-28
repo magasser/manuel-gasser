@@ -1,0 +1,36 @@
+@import "colors";
+
+.contact {
+  .my-contact {
+    color: $lightblue;
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+
+  .contact-information {
+    margin-bottom: .5rem;
+  }
+
+  .email {
+    display: inline-block;
+
+    .mailto {
+      text-decoration: none;
+      color: $link;
+    }
+
+    .mailto:hover {
+      color: $link-hovered;
+    }
+
+    p {
+      display: inherit;
+    }
+  }
+
+  p {
+    color: $white;
+    margin-bottom: .2rem;
+    font-size: 1rem;
+  }
+}

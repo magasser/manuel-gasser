@@ -1,5 +1,5 @@
 <section class="home">
-    <section class="me">
+    <section class="me col-mid">
         <img class="me-img" src="/images/me.png" alt="Picture of me">
         <section class="short-desc-me">
             <h2>Manuel Gasser</h2>
